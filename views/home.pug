@@ -1,0 +1,46 @@
+extends base.pug
+block scripts
+  script(src='static/index.js')
+block style
+    style
+      include ../static/style.css
+block content
+
+
+    section#introSection
+       Div Welcome To Roshan's Dance Academy
+       Div.small Take Breath For Dance
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+             div.card-img
+              img(src="../static/imgspon/bdf.png", alt="Error")
+            div.card-content
+              p this is best dance academy in the world
+        div.card
+            h3 Dance The way you like
+            div.card-box
+             div.card-img
+              img(src="../static/imgspon/back.png", alt="Error")
+            div.card-content
+              p this is best dance academy in the world
+        div.card
+            h3 Expert Teaching
+            div.card-box
+             div.card-img
+              img(src="../static/imgspon/j.png", alt="Error")
+            div.card-content
+              p this is best dance academy in the world
+
+
+    section#sponsorsSection
+       h2 Our Sponsor
+       div#spon
+          img(src="../static/imgspon/twitter.png", alt="" class="imgspon")
+          img(src="../static/imgspon/whatsapp.png", alt="" class="imgspon")
+          img(src="../static/imgspon/telegram.png", alt="" class="imgspon")
+          img(src="../static/imgspon/discord.png", alt="" class="imgspon")
+

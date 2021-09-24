@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+h1{
+    text-align: center;
+}
+.myInput{
+    font-family: 'EB Garamond', serif;
+    outline: none;
+    font-size: 20px;
+    width: 100%;
+    margin: 6px;
+    padding:9px 220px 0px 10px;
+    border: 2px solid #9e2d2d;
+    border-radius: 13px;
+
+}
+.myform{
+    /* outline: none; */
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 10px 14px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: white;
+    border: 2px solid #a72d2d;
+    border-radius: 15px;
+    background-color: #c53838;
+    cursor: pointer;
+}
+.container{
+    font-family: 'EB Garamond', serif;
+    /* font-family: 'Lacquer', cursive; */
+    justify-content: center;
+    height: 88vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,60 @@
+doctype html
+html
+  head
+    title Roshan Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+      ul
+          Div#logo
+            img(src="../static/imgspon/f.png", alt="Error")
+            | RDA
+          li #[a(href="/") Home]
+          li #[a(href="/") About]
+          li #[a(href="/") Service]
+          li #[a(href="/") Class Info]
+          li #[a(href="/") Contact Us]
+
+    section#introSection
+       Div Welcome To Roshan's Dance Academy
+       Div.small Take Breath For Dance
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+             div.card-img
+              img(src="../static/imgspon/bdf.png", alt="Error")
+            div.card-content
+              p this is best dance academy in the world
+        div.card
+            h3 Dance The way you like
+            div.card-box
+             div.card-img
+              img(src="../static/imgspon/back.png", alt="Error")
+            div.card-content
+              p this is best dance academy in the world
+        div.card
+            h3 Expert Teaching
+            div.card-box
+             div.card-img
+              img(src="../static/imgspon/j.png", alt="Error")
+            div.card-content
+              p this is best dance academy in the world
+
+
+    section#sponsorsSection
+       h2 Our Sponsor
+       div#spon
+          img(src="../static/imgspon/twitter.png", alt="" class="imgspon")
+          img(src="../static/imgspon/whatsapp.png", alt="" class="imgspon")
+          img(src="../static/imgspon/telegram.png", alt="" class="imgspon")
+          img(src="../static/imgspon/discord.png", alt="" class="imgspon")
+
+    footer#footer
+       |copyright 2020 Roshanacademy.com | All Right Reseverd
+
+    script
+      include ../static/index.js
